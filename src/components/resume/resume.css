@@ -1,0 +1,114 @@
+/* Main background for the resume section */
+.resume {
+    background-image: var(--second-gradient);
+    padding: 40px 0;
+    margin-bottom: 15rem;
+}
+
+/* Container for the resume grid layout */
+.resume__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Centered heading */
+.resume__heading {
+    text-align: center;
+    font-size: var(--h4-font-size);
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Border styling for headings and items */
+.resume__heading,
+.resume__item {
+    border-bottom: 2px solid var(--border-color);
+}
+
+/* Adding right border for items except the first column */
+.resume__item:not(:first-child) {
+    border-right: 2px solid var(--border-color);
+}
+
+/* Positioning and layout for each item */
+.resume__item {
+    position: relative;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+/* Header inside each resume item */
+.resume__header {
+    padding: 20px 0;
+}
+
+/* Subtitle font styling */
+.resume__subtitle {
+    font-size: var(--largest-font-size);
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.light-theme .resume__description, 
+.light-theme .resume__subtitle,
+.light-theme .resume__heading {
+  color: var(--text-color); /* or use var(--title-color) if you prefer */
+}
+
+.light-theme .resume__icon {
+    color: black; /* Change symbol color to black in light mode */
+  }
+/* Circle icon styling */
+.resume__icon {
+    background-color: var(--container-color);
+    border: 2px solid var(--border-color);
+    font-size: 30px;
+    box-shadow: var(--shadow);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: -5%; /* Center the icon horizontally *//* Adjust for perfect centering */
+    bottom: -23px; /* Adjust based on spacing needs */
+    z-index: 10;
+    transition: all 1.2s var(--transition);
+}
+
+
+.resume__content {
+    position: relative;
+    left:-1%;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease 0s;
+}
+.show-content {
+    max-height: 500px;
+}
+
+.resume__date-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume__title {
+    font-family: var(--second-font);
+    font-size: var(--h3-font-size);
+}
+.resume__date {
+    color: var(--title-color);
+    font-size: var(--tiny-font-size);
+    font-weight: 700;
+}
+.resume__description {
+    margin-block: 20px 30px;
+}

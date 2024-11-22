@@ -1,0 +1,469 @@
+@media screen and (max-width: 1800px)
+{
+    .home__subtitle
+    {
+        margin-left: -140px !important;
+    }
+    .home__title 
+    {
+        margin-left: -150px !important;
+    }
+
+    .deco__left {
+        left : -3% !important;
+    }
+
+    .home__img-wrapper {
+        transform: scale(0.85) !important;
+        right: -150px !important;
+    }
+
+}
+
+@media screen and (max-width: 1580px) {
+    .section__deco:not(.header__deco) {
+        display: none !important;
+    }
+
+    .header {
+        padding: 30px 12px !important;
+    }
+
+    .home__img-wrapper {
+        max-width: 600px !important;
+        transform: translateY(-6%) !important;
+        margin-top: 200px !important;
+        right: 30px !important; 
+    }
+    .home__profile {
+        height: auto !important;
+    }
+    .home__subtitle,
+    .home__title
+    {
+        margin-top: 70px;
+        margin-left: 10px !important;
+    }
+    .home__title 
+    {
+        position: relative;   /* or 'absolute' or 'fixed' */
+        transform: scale(0.8);
+        right: 10.5% !important;
+    }
+    .home__job
+    {
+        margin-left: 155px !important;
+    }
+
+    .home__text 
+    {
+        margin-left: 15px !important;
+    }
+
+    .home__socials 
+    {
+        margin-left: 9px !important;
+    }
+    .home__btns
+    {
+        margin-left: 9px !important;
+    }
+    
+    
+    .home__data {
+        transform: scale(0.9) !important;
+    }
+
+    .shape__1 {
+        width: 203px !important;
+        height: 203px !important;
+    }
+
+    .shape__2,
+    .shape__3 {
+        width: 126px !important;
+        height: 126px !important;
+    }
+    .resume__icon {
+        right: -5% !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px !important;
+    }
+
+    .home {
+        padding-top: 140px !important;
+    }
+    
+    .home__subtitle,
+    .home__title,
+    .home__job,
+    .home__text {
+        text-align: center !important;
+
+    }
+    .home__title 
+    {
+        position: relative !important;
+        left : 1% !important;
+    }
+
+    .home__text {
+        margin-inline: auto !important;
+    }
+    .home__img-wrapper {
+        position: relative !important;
+        transform: initial !important;
+        right: initial !important;
+        margin-inline: auto !important;
+        margin-top: 100px !important;
+    }
+
+    .home__socials,
+    .home__btns {
+        justify-content: center;
+    }
+
+    .skills__container,
+    .portfolio__container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .services__container {
+        grid-template-columns: 1fr 1fr !important;  /* Two columns */
+    }
+
+    .footer__copyright:nth-child(2) {
+        justify-self: start !important;
+    }
+    .swiper-horizontal > .swiper-pagination-bullets::before
+    {
+        width: 85px !important;
+        display: block !important;
+        content: '' !important;
+        position: absolute !important; /* Ensure you can position it */
+        left: 50% !important; /* Start at the horizontal center of the parent */
+        transform: translateX(-50%) !important; /* Shift left by 50% of its own width */
+    }
+}
+@media screen and (max-width: 992px)
+{
+    :root {
+        --h2-font-size: 24px;
+        --h3-font-size: 23px;
+        --h4-font-size: 21px;
+        --h5-font-size: 20px;
+        --largest-font-size: 19px;
+        --larger-font-size: 18px;
+        --large-font-size: 16px;
+        --normal-font-size: 15px;
+        --small-font-size: 14px;
+        --smaller-font-size: 13px;
+        --tiny-font-size: 12px;
+    }
+    .container {
+        max-width: 740px !important;
+    }
+
+    .home__subtitle,
+    .home__title,
+    .home__job {
+        margin-top: 30px;
+    }
+
+    .home__btns {
+        flex-direction: column;
+        align-items: center; 
+        row-gap: 60px;
+    }
+
+    .hero__link::before {
+        left:50% !important;
+        top: -72% !important;
+        transform: translateX(-50%) !important;
+        width: 2px !important;
+        height: 40px !important;
+
+    }
+
+    .skills__container,
+    .portfolio__container {
+       gap: 30px !important;
+    }
+
+    .portfolio__img {
+        height: 200px !important;
+    }
+
+    .resume__container {
+        grid-template-columns: 1fr !important;
+        row-gap: 40px !important;
+    }
+
+    .resume__icon {
+        width: 40px !important;
+        height: 40px !important;
+        left : 97% !important;
+    }
+
+    .contact__form-group {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px !important; /* This adds spacing between items */
+        
+    }
+
+    .contact__form {
+        margin-left: 50px; /* Adjust the value as needed */
+    }
+
+    .contact__card-icon {
+        font-size: var(--large-font-size) !important;
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    .contact__card-icon::after {
+        width: 32px !important;
+    }
+
+    .contact__card {
+        padding-left: 100px !important;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr !important;
+        justify-items: center !important;
+        row-gap: 12px !important;
+    }
+    .footer__copyright:nth-child(2),
+    .footer__copyright:last-child {
+        justify-self: center !important;
+    }
+
+    .swiper-horizontal > .swiper-pagination-bullets::before
+    {
+        width: 100px !important;
+        display: block !important;
+        content: '' !important;
+        position: absolute !important; /* Ensure you can position it */
+        left: 50% !important; /* Start at the horizontal center of the parent */
+        transform: translateX(-50%) !important; /* Shift left by 50% of its own width */
+    }
+    
+}
+
+@media screen and (max-width: 770px) {
+
+
+    .home__subtitle,
+    .home__title,
+    .home__job {
+
+        margin-top: 30px;
+    }
+
+    .header {
+        padding: 24px 12px !important;
+    }
+    
+    .nav__data {
+        padding: 80px 0 0 124px !important;
+    }
+
+    .show-menu {
+        width: 420px !important;
+    }
+
+    .header__deco {
+        left: 60px !important;
+    }
+
+    .home__img-wrapper {
+        margin-top: 40px !important;
+        max-width: 550px !important;
+        transform: scale(0.8) !important;
+    } 
+
+    .home__data-one {
+        left: -8% !important;
+    }
+
+    .home__data-two {
+        right: -7% !important;
+    }
+
+    .shape__2 {
+        bottom: 8% !important;
+        left: -6% !important;
+    }
+
+    .shape__3 {
+        bottom: -1% !important;
+        right:  -5% !important;
+    }
+    .resume__container {
+        margin-left: 20px !important;
+        margin-right: 40px !important; 
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .skills__container,
+    .contact__container{
+        grid-template-columns: 1fr !important;
+    }
+    .portfolio__container 
+    {
+        grid-template-columns: 1fr !important;
+    }
+    .portfolio__list {
+        column-gap: 24px !important;
+    }
+
+    .portfolio__list-item::before {
+        bottom: -8px !important;
+    }
+
+
+}
+@media screen and (max-width: 576px) {
+    .show-menu {
+        width: 100% !important;
+    }
+    .nav__btns {
+        column-gap: 24px !important;
+    }
+
+    .home__text {
+        margin-top: -80px !important;
+    }
+    .home__img-wrapper {
+        margin-top: 50px !important; /* Adjust as needed */
+        max-width: 550px !important;
+        transform: scale(0.67) !important;
+        transform-origin: center top !important; /* Scale from the top-center */
+    }
+
+    .resume__header {
+        padding: 28px 24px !important;
+    }
+    .resume__content {
+        padding-inline: 24px 30px !important;
+    }
+    .resume__date-title {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        row-gap: 4px !important;
+    }
+
+    .shape__1{
+        right: -2% !important;
+    }
+
+    .resume__icon
+    {
+        left: 91% !important
+    }
+    .home__job 
+    {
+        margin-top: 8px !important;
+
+    }
+    .home__data-one {
+        left: -15% !important;
+    }
+
+    .home__data-two {
+        right: -20% !important;
+    }
+
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .nav__data {
+        padding: 80px 0 0 90px !important;
+    }
+    
+    .home__img-wrapper {
+      margin-top: 30px !important;
+    }
+    .header__deco {
+        left: 40px !important;
+    }
+
+    .home__data {
+        transform: scale(0.5) !important;
+    }
+
+    .home__data-one {
+        bottom: 18% !important ;
+        left: -35% !important;
+        width: 100% !important; /* Double the width */
+        height: 30% !important;
+    }
+
+    .home__data-two {
+        bottom: 0 !important;
+        right: -35% !important;
+        width: 100% !important; /* Double the width */
+        height: 30% !important; /* Double the height */
+
+    }
+    .shape__1 {
+        bottom: 8% !important;
+        right: -15% !important;
+    }
+    .shape__2 {
+        bottom: -2% !important;
+        left: -10% !important;
+    }
+
+    .shape__3 {
+        bottom: -5% !important;
+        right:  -15% !important;
+    }
+
+    .card-one,
+    .card-two {
+        padding: 24px !important;
+    }
+    .skills__titles,
+    .skills__description {
+        padding-inline: 16px !important;
+    }
+
+    .portfolio__img {
+        height: 180px !important;
+    }
+
+    .resume__header{
+        padding: 24px 18px !important;
+    }
+
+    .resume__content {
+        padding-inline: 18px 20px !important;
+    }
+    .resume__icon
+    {
+        left: 91% !important
+    }
+    .home__job 
+    {
+        margin-top: 8px;
+        position: relative !important;
+        left: -16px !important;
+
+    }
+
+    .home__data .text-sm
+    {
+        font-size: 1.5rem !important;
+        margin-left: -15px !important;
+    }
+
+}
+
