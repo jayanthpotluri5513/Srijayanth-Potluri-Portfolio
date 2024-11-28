@@ -80,3 +80,43 @@ It comprises various sections for **home**, **services**, **skills**, **portfoli
    ```
 5. **Deploy**
     Follow your preferred deployment platform's guide (e.g., Vercel, Netlify).
+
+
+## 🧩 Components Breakdown  
+
+### **Header**  
+- Contains navigation links with smooth scrolling.  
+- Highlights active sections as you scroll.  
+
+### **Home Section**  
+- Introduction with a professional tagline.  
+- Call-to-action buttons for resume download and portfolio viewing.  
+
+### **Services Section**  
+- Grid-based layout to display expertise areas with icons and descriptions.  
+
+### **Skills Section**  
+- Skill bars or charts representing technical strengths.  
+
+### **Portfolio Section**  
+- Filterable project gallery with modal previews for project details.  
+
+### **Resume Section**  
+- An embedded resume viewer and downloadable PDF link.  
+
+### **Contact Section**  
+- Fully functional contact form integrated with Firebase.  
+- Social media icons for quick connections.  
+
+### **Footer**  
+- Displays copyright details and external links.  
+
+
+## 📜 License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## 🤖 About Me
+I'm Srijayanth Potluri, an aspiring software developer and data analyst with a strong interest in full stack development, machine learning, deep learning, and NLP technologies. I am dedicated to leveraging advanced algorithms to drive insights and foster meaningful interactions across digital platforms.
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srijayanth-potluri-437519259/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SrijayanthP)
