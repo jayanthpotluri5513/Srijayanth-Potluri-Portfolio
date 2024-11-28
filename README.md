@@ -56,3 +56,27 @@ It comprises various sections for **home**, **services**, **skills**, **portfoli
 - Firebase (for form submission handling)  
 
 ---
+
+## 🚀 Installation Guide  
+
+1. **Clone the Repository**  
+   ```bash  
+   git clone https://github.com/yourusername/SrijayanthPotluriPortfolio.git  
+   cd SrijayanthPotluriPortfolio
+   ```
+2.**Install Dependencies**
+
+   ```bash
+      npm install
+   ```
+3. **Run the Application**
+   ``` bash
+      npm start
+   ```
+4. **Build for Production**
+
+   ```bash
+      npm run build
+   ```
+5. **Deploy**
+    Follow your preferred deployment platform's guide (e.g., Vercel, Netlify).
