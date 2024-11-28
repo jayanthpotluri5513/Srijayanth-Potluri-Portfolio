@@ -3,7 +3,7 @@
 Welcome to the official repository of **Srijayanth Potluri Portfolio**, a dynamic and interactive web application designed to showcase my expertise in **software development**, **full-stack development**, **machine learning**, and **NLP technologies**. This project is a testament to my commitment to delivering impactful digital experiences. 🚀  
 
 ## 🏠 Live Demo  
-[Explore the Portfolio Here](#) *(Replace with your live URL)*  
+[Explore the Portfolio Here](#) *(https://srijayanthpotluri.netlify.app/#home)*  
 
 ---
 
@@ -49,10 +49,10 @@ It comprises various sections for **home**, **services**, **skills**, **portfoli
 **- Routing**:  
 - React Router  
 
-**Animations**:  
+**- Animations**:  
 - Framer Motion for smooth transitions  
 
-**Backend**:  
+**- Backend**:  
 - Google Forms (for form submission handling)  
 
 ---
