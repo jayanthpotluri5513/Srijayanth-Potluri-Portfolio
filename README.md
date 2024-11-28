@@ -64,19 +64,19 @@ It comprises various sections for **home**, **services**, **skills**, **portfoli
    git clone https://github.com/yourusername/SrijayanthPotluriPortfolio.git  
    cd SrijayanthPotluriPortfolio
    ```
-2.**Install Dependencies**
+2. **Install Dependencies**
 
    ```bash
-      npm install
+   npm install
    ```
 3. **Run the Application**
    ``` bash
-      npm start
+    npm start
    ```
 4. **Build for Production**
 
    ```bash
-      npm run build
+   npm run build
    ```
 5. **Deploy**
     Follow your preferred deployment platform's guide (e.g., Vercel, Netlify).
