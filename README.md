@@ -38,22 +38,22 @@ It comprises various sections for **home**, **services**, **skills**, **portfoli
 
 ## 🛠️ Tech Stack  
 
-**Frontend**:  
+**- Frontend**:  
 - HTML5, CSS3, JavaScript (ES6+)  
 - React.js with functional components  
 - Styled Components for enhanced styling  
 
-**State Management**:  
+**- State Management**:  
 - React Context API  
 
-**Routing**:  
+**- Routing**:  
 - React Router  
 
 **Animations**:  
 - Framer Motion for smooth transitions  
 
 **Backend**:  
-- Firebase (for form submission handling)  
+- Google Forms (for form submission handling)  
 
 ---
 
@@ -84,31 +84,31 @@ It comprises various sections for **home**, **services**, **skills**, **portfoli
 
 ## 🧩 Components Breakdown  
 
-### **Header**  
+### **- Header**  
 - Contains navigation links with smooth scrolling.  
 - Highlights active sections as you scroll.  
 
-### **Home Section**  
+### **- Home Section**  
 - Introduction with a professional tagline.  
 - Call-to-action buttons for resume download and portfolio viewing.  
 
-### **Services Section**  
+### **- Services Section**  
 - Grid-based layout to display expertise areas with icons and descriptions.  
 
-### **Skills Section**  
+### **- Skills Section**  
 - Skill bars or charts representing technical strengths.  
 
-### **Portfolio Section**  
+### **- Portfolio Section**  
 - Filterable project gallery with modal previews for project details.  
 
-### **Resume Section**  
+### **- Resume Section**  
 - An embedded resume viewer and downloadable PDF link.  
 
-### **Contact Section**  
+### **- Contact Section**  
 - Fully functional contact form integrated with Firebase.  
 - Social media icons for quick connections.  
 
-### **Footer**  
+### **- Footer**  
 - Displays copyright details and external links.  
 
 
